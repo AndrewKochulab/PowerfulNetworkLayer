@@ -34,7 +34,7 @@ open class DispatchOperation<InputType: Request, OutputType: Response>: Operatio
     /// - Parameter dispatcher: manager
     /// - Parameter service: service, which run the operation
     /// - Returns: promise
-    public func execute<ServiceType>(
+    open func execute<ServiceType>(
         in dispatcher: Dispatcher,
         by service: ServiceType
     ) -> Promise<OutputType>

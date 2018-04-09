@@ -53,7 +53,9 @@ open class DownloadDispatcher: BaseDispatcher {
                         guard let destinationURL = request.destinationURL else {
                             let suggestedDestinationURL = Alamofire.DownloadRequest.suggestedDownloadDestination(for: .documentDirectory, in: .userDomainMask)
                             
-                            return suggestedDestinationURL(url, urlResponse)
+                            let response = suggestedDestinationURL(url, urlResponse)
+                            
+                            return (response.destinationURL, options: .removePreviousFile)
                         }
                         
                         return (destinationURL: destinationURL, options: .removePreviousFile)

@@ -52,4 +52,8 @@ open class BaseRequest<RequestType: Alamofire.Request>: Request {
     
     /// Is current request from external source
     open var isExternalURL: Bool = false
+    
+    
+    /// Initialization
+    public init() { }
 }

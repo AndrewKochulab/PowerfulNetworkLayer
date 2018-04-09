@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		33B5B40A28576CFBB5B6BBDC /* Pods_PowerfulNetworkLayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1ECBDB3190F333DD56F971 /* Pods_PowerfulNetworkLayer_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8E863D0D556F3C4FE9DAC313 /* Pods_PowerfulNetworkLayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B395925CF4AB040633A7EE5D /* Pods_PowerfulNetworkLayer_Example.framework */; };
+		8ED113AA207BAC7800F0B54F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113A9207BAC7800F0B54F /* AuthService.swift */; };
+		8ED113AD207BACA000F0B54F /* DevelopmentEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113AC207BACA000F0B54F /* DevelopmentEnvironment.swift */; };
+		8ED113B1207BACE800F0B54F /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113B0207BACE800F0B54F /* LoginRequest.swift */; };
+		8ED113B5207BAD7400F0B54F /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113B4207BAD7400F0B54F /* LoginResponse.swift */; };
+		8ED113B8207BAD9E00F0B54F /* LoginOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113B7207BAD9E00F0B54F /* LoginOperation.swift */; };
+		8ED113BB207BAEE400F0B54F /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113BA207BAEE400F0B54F /* DownloadService.swift */; };
+		8ED113BE207BAF0600F0B54F /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113BD207BAF0600F0B54F /* DownloadOperation.swift */; };
+		8ED113C1207BAFEC00F0B54F /* PowerfulService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED113C0207BAFEC00F0B54F /* PowerfulService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +42,6 @@
 		607FACD01AFB9204008FA782 /* PowerfulNetworkLayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerfulNetworkLayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +49,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D1ECBDB3190F333DD56F971 /* Pods_PowerfulNetworkLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerfulNetworkLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED113A9207BAC7800F0B54F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8ED113AC207BACA000F0B54F /* DevelopmentEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentEnvironment.swift; sourceTree = "<group>"; };
+		8ED113B0207BACE800F0B54F /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		8ED113B4207BAD7400F0B54F /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		8ED113B7207BAD9E00F0B54F /* LoginOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOperation.swift; sourceTree = "<group>"; };
+		8ED113BA207BAEE400F0B54F /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		8ED113BD207BAF0600F0B54F /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		8ED113C0207BAFEC00F0B54F /* PowerfulService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerfulService.swift; sourceTree = "<group>"; };
 		9ED15BD271C3D7AB44E1AC87 /* Pods-PowerfulNetworkLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerfulNetworkLayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PowerfulNetworkLayer_Tests/Pods-PowerfulNetworkLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0F77F561F821EC37F9739D1 /* PowerfulNetworkLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PowerfulNetworkLayer.podspec; path = ../PowerfulNetworkLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B395925CF4AB040633A7EE5D /* Pods_PowerfulNetworkLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerfulNetworkLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +107,9 @@
 		607FACD21AFB9204008FA782 /* Example for PowerfulNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				8ED113AB207BAC8D00F0B54F /* Environment */,
+				8ED113A8207BAC4700F0B54F /* Services */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -146,6 +161,84 @@
 				6D1ECBDB3190F333DD56F971 /* Pods_PowerfulNetworkLayer_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED113A8207BAC4700F0B54F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113AF207BACD800F0B54F /* AuthService */,
+				8ED113B9207BAEDB00F0B54F /* DownloadService */,
+				8ED113BF207BAFDB00F0B54F /* PowerfulService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8ED113AB207BAC8D00F0B54F /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113AC207BACA000F0B54F /* DevelopmentEnvironment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		8ED113AE207BACCC00F0B54F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113B0207BACE800F0B54F /* LoginRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		8ED113AF207BACD800F0B54F /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113A9207BAC7800F0B54F /* AuthService.swift */,
+				8ED113AE207BACCC00F0B54F /* Requests */,
+				8ED113B3207BAD6400F0B54F /* Responses */,
+				8ED113B6207BAD9500F0B54F /* Operations */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		8ED113B3207BAD6400F0B54F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113B4207BAD7400F0B54F /* LoginResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		8ED113B6207BAD9500F0B54F /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113B7207BAD9E00F0B54F /* LoginOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		8ED113B9207BAEDB00F0B54F /* DownloadService */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113BA207BAEE400F0B54F /* DownloadService.swift */,
+				8ED113BC207BAEFD00F0B54F /* Operations */,
+			);
+			path = DownloadService;
+			sourceTree = "<group>";
+		};
+		8ED113BC207BAEFD00F0B54F /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113BD207BAF0600F0B54F /* DownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		8ED113BF207BAFDB00F0B54F /* PowerfulService */ = {
+			isa = PBXGroup;
+			children = (
+				8ED113C0207BAFEC00F0B54F /* PowerfulService.swift */,
+			);
+			path = PowerfulService;
 			sourceTree = "<group>";
 		};
 		CAB79FB491966C81F65D4546 /* Pods */ = {
@@ -330,8 +423,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8ED113AD207BACA000F0B54F /* DevelopmentEnvironment.swift in Sources */,
+				8ED113BB207BAEE400F0B54F /* DownloadService.swift in Sources */,
+				8ED113B8207BAD9E00F0B54F /* LoginOperation.swift in Sources */,
+				8ED113BE207BAF0600F0B54F /* DownloadOperation.swift in Sources */,
+				8ED113C1207BAFEC00F0B54F /* PowerfulService.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8ED113AA207BAC7800F0B54F /* AuthService.swift in Sources */,
+				8ED113B1207BACE800F0B54F /* LoginRequest.swift in Sources */,
+				8ED113B5207BAD7400F0B54F /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
