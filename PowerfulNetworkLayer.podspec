@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'PowerfulNetworkLayer'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Light way to communicate with your API.'
 
   s.description      = <<-DESC
