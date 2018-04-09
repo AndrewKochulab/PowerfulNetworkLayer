@@ -1,0 +1,16 @@
+PODS:
+  - PowerfulNetworkLayer (0.1.0)
+
+DEPENDENCIES:
+  - PowerfulNetworkLayer (from `../`)
+
+EXTERNAL SOURCES:
+  PowerfulNetworkLayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PowerfulNetworkLayer: 15ffd4f60ab464789671574385f5cc9ac2c1f212
+
+PODFILE CHECKSUM: 8004ac7a4fb68ab968babe60d85d1a8bc5582cb2
+
+COCOAPODS: 1.4.0

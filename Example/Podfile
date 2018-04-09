@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PowerfulNetworkLayer_Example' do
+    inhibit_all_warnings!
+    
+    pod 'PowerfulNetworkLayer', :path => '../'
+
+    target 'PowerfulNetworkLayer_Tests' do
+        inherit! :search_paths
+
+    end
+end
