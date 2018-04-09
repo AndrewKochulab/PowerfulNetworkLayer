@@ -48,6 +48,14 @@ Requirements
 * Swift >= 3.0
 * iOS >= 8.0
 
+Installation
+============
+
+PowerfulNetworkLayer is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```ruby
+pod 'PowerfulNetworkLayer'
+```
 
 Credits
 =======
