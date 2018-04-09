@@ -14,7 +14,7 @@ I would like to present you an easy way to communicate with your API. Its light 
   s.source           = { :git => 'https://github.com/AndrewKochulab/PowerfulNetworkLayer.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PowerfulNetworkLayer/Classes/**/*.{h,swift}'
+  s.source_files = 'PowerfulNetworkLayer/Classes/**/*'
   s.dependency 'PromiseKit', '~> 6.2'
   s.dependency 'PromiseKit/Alamofire'
   s.dependency 'Alamofire', '~> 4.7'

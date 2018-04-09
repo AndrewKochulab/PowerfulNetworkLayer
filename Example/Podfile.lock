@@ -1,16 +1,49 @@
 PODS:
-  - PowerfulNetworkLayer (0.1.0)
+  - Alamofire (4.7.1)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - ObjectMapper (3.1.0)
+  - PowerfulNetworkLayer (1.0.1):
+    - Alamofire (~> 4.7)
+    - AlamofireObjectMapper (~> 5.0)
+    - ObjectMapper (~> 3.1)
+    - PromiseKit (~> 6.2)
+    - PromiseKit/Alamofire
+  - PromiseKit (6.2.4):
+    - PromiseKit/CorePromise (= 6.2.4)
+    - PromiseKit/Foundation (= 6.2.4)
+    - PromiseKit/UIKit (= 6.2.4)
+  - PromiseKit/Alamofire (6.2.4):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.2.4)
+  - PromiseKit/Foundation (6.2.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.4):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - PowerfulNetworkLayer (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - PromiseKit
+
 EXTERNAL SOURCES:
   PowerfulNetworkLayer:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PowerfulNetworkLayer: 15ffd4f60ab464789671574385f5cc9ac2c1f212
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PowerfulNetworkLayer: ff3a152d1ce9272b3b9fe08255c4039d29ccb9a4
+  PromiseKit: 625b1fc69944fc839503748101c5968cf54b527b
 
-PODFILE CHECKSUM: 8004ac7a4fb68ab968babe60d85d1a8bc5582cb2
+PODFILE CHECKSUM: e9d2c1226a78fc2729b6dfa4478797e107b81806
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
